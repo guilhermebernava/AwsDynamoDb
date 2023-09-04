@@ -1,0 +1,50 @@
+# .gitignore for .NET 6 WebAPI
+
+# Ignore bin and obj directories
+bin/
+obj/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore Visual Studio files
+.vscode/
+.vs
+
+# Ignore build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Aa][Rr][Cc][Hh][Ii][Vv][Ee]/
+[Aa][Rr][Cc][Hh][Ii][Vv][Ee]_[Nn][Aa][Mm][Ee]_[Oo][Ff]_[Dd][Ee][Ss][Tt][Ii][Nn][Aa][Tt][Ii][Oo][Nn]/
+
+# Ignore NuGet packages
+packages/
+
+# Ignore the .vscode folder (if using Visual Studio Code)
+.vscode/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore .NET build output directory
+bin/
+obj/
+
+# Ignore appsettings.json (contains sensitive data)
+appsettings.json
+
+# Ignore Visual Studio temporary files
+.vscode/
+.vs/

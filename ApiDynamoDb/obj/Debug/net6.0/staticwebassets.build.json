@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hm+/oi4E98Dok6xSZkPwlW2xHcwCy7Ipj6qbjChzeMw=",
+  "Source": "ApiDynamoDb",
+  "BasePath": "_content/ApiDynamoDb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
