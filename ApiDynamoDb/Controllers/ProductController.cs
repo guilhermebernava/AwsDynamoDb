@@ -17,17 +17,41 @@ public class ProductController : ControllerBase
         _dynamoDbClient = dynamoDbClient;
     }
 
+    [HttpGet("ById")]
+    public async Task<IActionResult> GetById([FromQuery] string id)
+    {
+        var request = new GetItemRequest
+        {
+            TableName = "products", // Replace with your table name
+            Key = new Dictionary<string, AttributeValue>
+                    {
+                        { "Id", new AttributeValue { S = id } }
+                    }
+        };
+
+        var response = await _dynamoDbClient.GetItemAsync(request);
+
+        if (response == null) return NotFound();
+        return Ok(new Product()
+        {
+            Id = response.Item["Id"].S,
+            Name = response.Item["Name"].S,
+            Price = response.Item["Price"].S
+        });
+    }
+
     [HttpGet]
-    public async Task<List<Product>> GetAll()
+    public async Task<IActionResult> GetAll()
     {
         var queryResponse = await _dynamoDbClient.ScanAsync(new ScanRequest() { TableName = "products" });
-        return queryResponse.Items.Select(item =>
+        var products = queryResponse.Items.Select(item =>
         new Product
         {
             Id = item["Id"].S,
             Name = item["Name"].S,
             Price = item["Price"].S
         }).ToList();
+        return Ok(products);
     }
 
     [HttpPost]
