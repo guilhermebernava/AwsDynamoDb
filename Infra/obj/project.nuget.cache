@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "WPLL7GPdb1icQt10i1NMxGubsyXZ4+yxtJm47Ju66fZxKHiMho4CpeWFmMMdPjK3EXRli7wcyGS5XNOAoQfmEw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\guilh\\OneDrive\\Documentos\\Projects\\AwsDynamoDb\\Infra\\Infra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guilh\\.nuget\\packages\\awssdk.core\\3.7.202.1\\awssdk.core.3.7.202.1.nupkg.sha512",
+    "C:\\Users\\guilh\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.201.3\\awssdk.dynamodbv2.3.7.201.3.nupkg.sha512",
+    "C:\\Users\\guilh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

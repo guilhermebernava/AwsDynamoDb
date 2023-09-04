@@ -1,14 +1,18 @@
 using Amazon.DynamoDBv2;
+using Services;
+using Infra;
+using Services.Profiles;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-var awsOptions = builder.Configuration.GetAWSOptions();
-builder.Services.AddDefaultAWSOptions(awsOptions);
+builder.Services.AddDefaultAWSOptions(builder.Configuration.GetAWSOptions());
+builder.Services.AddAutoMapper(typeof(Maps));
 builder.Services.AddAWSService<IAmazonDynamoDB>();
-
+builder.Services.AddRepositories(); 
+builder.Services.AddServices(); 
 
 var app = builder.Build();
 

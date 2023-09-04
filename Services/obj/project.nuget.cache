@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "o3wlzD+pKj5//eq7ArG51IG4YnAySYr9UMWBsJ7eytBOoGhSJshWht4WTE3i8f8fG5sq7kyytxzom55brtsgwA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\guilh\\OneDrive\\Documentos\\Projects\\AwsDynamoDb\\Services\\Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guilh\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\guilh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\guilh\\.nuget\\packages\\awssdk.core\\3.7.202.1\\awssdk.core.3.7.202.1.nupkg.sha512",
+    "C:\\Users\\guilh\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.201.3\\awssdk.dynamodbv2.3.7.201.3.nupkg.sha512",
+    "C:\\Users\\guilh\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\guilh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\guilh\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\guilh\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\guilh\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
