@@ -55,7 +55,7 @@ To run the API locally, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-repo-url/aws-dynamodb-product-api.git
+   git clone https://github.com/guilhermebernava/AwsDynamoDb.git
    ```
 
 2. Navigate to the project directory:
